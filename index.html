@@ -13,23 +13,23 @@
     <link rel="stylesheet" href="./src/css/style.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="#">LIFESTYLE</a></li>
-          <li><a href="#">PHOTODIARY</a></li>
-          <li><a href="#">MUSIC</a></li>
-          <li><a href="#">TRAVEL</a></li>
+    <header class="header">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#" class="nav-link">LIFESTYLE</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">PHOTODIARY</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">MUSIC</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">TRAVEL</a></li>
         </ul>
       </nav>
     </header>
-    <main>
-      <section>
-        <ul>
-          <li>
-            <article>
-              <div>
-                <img src="./src/images/festival.jpg" alt="Girl dancing" />
+    <main class="main">
+      <section class="gallery">
+        <ul class="gallery-list">
+          <li class="gallery-item">
+            <article class="post">
+              <div class="post-photo">
+                <img class="img" src="./src/images/festival.jpg" alt="Girl dancing" />
               </div>
               <span>LIFESTYLE</span>
               <h2>More than just a music festival</h2>
@@ -41,9 +41,9 @@
               </p>
             </article>
           </li>
-          <li>
-            <article>
-              <div>
+          <li class="gallery-item">
+            <article class="post">
+              <div class="post-photo">
                 <img src="./src/images/coffee.jpg" alt="Cup of coffee" />
               </div>
               <span>LIFESTYLE</span>
@@ -54,11 +54,11 @@
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
                 nisi ut aliquip ex ea.
               </p>
-            </article>
-          </li>
+            </article class="post">
+          </li class="gallery-item">
           <li>
             <article>
-              <div>
+              <div class="post-photo">
                 <img src="./src/images/dream.jpg" alt="Two girls" />two girls
               </div>
               <span>PHOTODAIRY</span>
@@ -69,11 +69,12 @@
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
                 nisi ut aliquip ex ea.
               </p>
-            </article>
-          </li>
+            </article class="post">
+          </li class="gallery-item">
           <li>
             <article>
-              <div><img src="./src/images/alps-mountains.jpg" alt="Man" /></div>
+              <div class="post-photo">
+                <img src="./src/images/alps-mountains.jpg" alt="Man" /></div>
               <span>PHOTODAIRY</span>
               <h2>A day exploring the Alps</h2>
               <p>
@@ -82,11 +83,11 @@
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
                 nisi ut aliquip ex ea.
               </p>
-            </article>
+            </article class="post">
           </li>
-          <li>
-            <article>
-              <div>
+          <li class="gallery-item">
+            <article class="post">
+              <div class="post-photo">
                 <img src="./src/images/song.jpg" alt="Girl on the field " />
               </div>
               <span>LIFESTYLE</span>
@@ -97,11 +98,12 @@
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
                 nisi ut aliquip ex ea.
               </p>
-            </article>
+            </article class="post">
           </li>
-          <li>
+          <liD class="gallery-item">
             <article>
-              <div><img src="./src/images/day.jpg" alt="Winter road" /></div>
+              <div class="post-photo"> 
+                <img src="./src/images/day.jpg" alt="Winter road" /></div>
               <span>LIFESTYLE</span>
               <h2>Cold winter days</h2>
               <p>
@@ -111,7 +113,7 @@
                 nisi ut aliquip ex ea.
               </p>
             </article>
-          </li>
+          </liD>
         </ul>
         <button type="button">Load more</button>
       </section>
